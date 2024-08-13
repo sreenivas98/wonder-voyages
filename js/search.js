@@ -1,5 +1,5 @@
 function getResults() {
-    const url = '../travel_recommendation_api.json';
+    const url = 'travel_recommendation_api.json';
     var searchBar=document.getElementById("search-box").value.toLowerCase();
     var results=document.getElementById("search-results");
     results.innerHTML="";
