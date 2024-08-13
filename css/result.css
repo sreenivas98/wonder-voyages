@@ -1,0 +1,43 @@
+.error-msg {
+    color:white;
+    text-align:center;
+}
+
+.result-card {
+    background-color: white;
+    width:400px;
+    height:auto;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+
+.loc-image {
+    width:400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height:250px;
+
+}
+
+.loc-name {
+    margin-left:10px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.loc-desc {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.visit-btn {
+    margin-left:10px;
+    margin-bottom:10px;
+    color:aliceblue;
+    background-color: darkolivegreen;
+    border:none;
+    border-radius:2px;
+    text-align: center;
+    width:70px;
+    cursor: pointer;
+}

@@ -1,0 +1,88 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center;            /* Vertically centers items */
+    width: 100%;
+    background-color: black;
+    margin:0;
+    padding:0;
+    position:fixed;
+}
+
+.company {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height:40px;
+}
+
+.name {
+    color:white;
+    font-style: italic;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex: 1;                        /* Allows the nav-links to take up remaining space */
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 10px;                 /* Horizontal spacing between links */
+}
+
+.link:hover {
+    color:cyan;
+    text-shadow: 0px 0px 10px white;
+}
+
+.search-bar {
+    display: flex;                  /* Ensures child elements are aligned in a row */
+    align-items: center;            /* Vertically centers items in the search bar */
+    justify-content: center;        /* Center contents within the search bar */
+    border: 1px solid teal;
+    margin-right:10px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.search-input {
+    width: 200px;
+    border: none;
+    color: rgba(7, 161, 68, 0.774);;
+}
+
+.search-input:focus {
+    border: none;
+    outline: none;
+}
+
+.btn {
+    margin: 0 2px;                
+    border-radius: 5px;
+    border: 1px solid rgba(7, 161, 68, 0.774);;
+    background-color: rgba(7, 161, 68, 0.774);;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

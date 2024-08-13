@@ -1,0 +1,63 @@
+.home-main {
+    padding-top:100px;
+    display: grid;
+    grid-template-columns: 10% 40% 40%;
+    gap: 10px;
+    height:auto;
+}
+
+.home-c1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:10px;
+}
+
+.st-line {
+    width:2px;
+    height:200px;
+    color:white;
+    background-color: white;
+    margin-bottom:60px;
+    margin-left:9px;
+}
+
+.icon {
+    color: white; /* Icon color */
+    width:20px;
+    height:20px;
+    margin-bottom:25px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.icon:hover {
+    color:aqua; /* Lighter color on hover */
+}
+
+.main-heading {
+    color:white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.main-content {
+    width:350px;
+    color: white;
+}
+
+.booknow-btn {
+    margin-top:30px;
+    border-radius:5px;
+    color:white;
+    background-color: rgba(7, 161, 68, 0.774);
+    border:0px;
+    padding:5px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.search-results {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
